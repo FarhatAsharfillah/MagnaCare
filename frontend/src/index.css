@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palet Warna: The Modern Nature */
+  --color-primary: #3B5249;
+  --color-secondary: #1A1A1A;
+  --color-base: #F4F4F0;
+
+  /* Tipografi */
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+}
+
+/* Mengatur warna dasar dan font untuk seluruh website */
+body {
+  background-color: var(--color-base);
+  color: var(--color-secondary);
+  font-family: var(--font-sans);
+}
