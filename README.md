@@ -23,23 +23,18 @@ Magna Care is a full-stack e-commerce web application dedicated to providing hig
 To run this project locally on your machine, follow these steps:
 
 **1. Clone the repository**
-\`\`\`bash
 git clone https://github.com/FarhatAsharfillah/MagnaCare.git
 cd MagnaCare
-\`\`\`
 
 **2. Setup Backend**
-\`\`\`bash
-cd backend
-npm install
-# Create a .env file and add your Aiven MySQL password: DB_PASSWORD=your_password
+* cd backend
+* npm install
+* Create a .env file and add your Aiven MySQL password: DB_PASSWORD=your_password
 node server.js
-\`\`\`
+
 
 **3. Setup Frontend**
-Open a new terminal window:
-\`\`\`bash
-cd frontend
-npm install
-npm run dev
-\`\`\`
+* Open a new terminal window:
+* cd frontend
+* npm install
+* npm run dev
